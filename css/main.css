@@ -1,7 +1,7 @@
 #wrap {
     position: relative;
     width: 100%;
-    background: url('../img/background.jpg') no-repeat;
+    background: url('/img/background.jpg') no-repeat;
     background-size: 100% auto;
 }
 
