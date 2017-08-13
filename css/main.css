@@ -1,6 +1,8 @@
 #wrap {
     position: relative;
     width: 100%;
+    background: url('/img/background.jpg') no-repeat;
+    background-size: auto 100%;
 }
 
 .haenyeo {
@@ -9,4 +11,16 @@
     top: 65%;
     right: 10px;
     z-index: 10000;
+}
+
+.greeting {
+    text-align: center;
+    line-height: 3;
+    color: #FFF;
+}
+
+.gretting_title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
 }
