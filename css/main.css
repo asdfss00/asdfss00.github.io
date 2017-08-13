@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     background: url('/img/background.jpg') no-repeat;
-    background-size: auto 100%;
+    background-size: 100% auto;
 }
 
 .haenyeo {
@@ -23,4 +23,8 @@
     display: block;
     font-size: 20px;
     font-weight: bold;
+}
+
+#wrap {
+    height: 2000px;
 }
