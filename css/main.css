@@ -19,6 +19,7 @@
     height: 100%;
     background: #FFF;
     padding: 10% 5%;
+    font-size: 1rem;
 }
 
 #wrap > div > div.content.back_gray {
@@ -110,7 +111,6 @@ div.content > span.title {
 
 div.map {
     width: 100%;
-    text-align: center;
 }
 
 div.map > div.content > span.title {
@@ -130,4 +130,8 @@ div.map > div > img {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.galereya-grid {
+    height: auto;
 }

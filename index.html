@@ -8,6 +8,7 @@
 
     <title>제주 해물탕/횟집 개업식에 초대합니다.</title>
 
+    <link rel="stylesheet" href="./script/galereya-latest/jquery.galereya.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -44,6 +45,12 @@
             <span class="title">&lt; 찾아오시는길 &gt;</span>
 
             <img src="./img/map.png">
+
+            <div class="map_intro">
+                전화번호 : <a href="tel:064-712-7200">064-712-7200</a><br>
+                주 소 : 제주 제주시 동한두기길 29(용담동 431)
+            </div>
+
             <div class="btn_nav">
                 <a href="http://m.store.naver.com/restaurants/detailMap?id=1693597443">&gt; 네이버지도로 보기</a>
                 <a href="https://m.map.daum.net/actions/searchView?q=%EB%8F%99%ED%95%9C%EB%91%90%EA%B8%B0%EA%B8%B8%2029&wxEnc=LVSOTP&wyEnc=QNLTTMN&lvl=4&rcode=I10230700#!/SWQQPR,NPNS/map/bus">&gt; 다음지도로 보기</a>
@@ -51,7 +58,19 @@
         </div>
     </div>
 
+    <div class="photo">
+        <div class="ribon gray_ribon"></div>
+        <div class="content back_gray" id="photoAlum">
+            <img src="./photo/01.jpeg" data-fullsrc="./photo/01.jpeg">
+            <img src="./photo/02.jpeg" data-fullsrc="./photo/02.jpeg">
+            <img src="./photo/03.jpeg" data-fullsrc="./photo/03.jpeg">
+            <img src="./photo/04.jpeg" data-fullsrc="./photo/04.jpeg">
+            <img src="./photo/05.jpeg" data-fullsrc="./photo/05.jpeg">
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./script/galereya-latest/jquery.galereya.min.js"></script>
     <script>
         function ribonResizing() {
             doc_width = $(document).width() / 2;
@@ -60,6 +79,8 @@
         }
 
         ribonResizing();
+
+        $('#photoAlum').galereya();
     </script>
 </body>
 </html>
