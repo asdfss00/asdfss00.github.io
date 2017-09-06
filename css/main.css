@@ -108,11 +108,16 @@ div.content > span.title {
     height: 500px;
 }
 
-.map {
+div.map {
     width: 100%;
     text-align: center;
 }
 
-.real_map {
-    margin: 0 auto;
+div.map > div.content > span.title {
+    margin-bottom: 3.125rem;
+}
+
+div.map > div > img {
+    width: 90%;
+    margin: 10px 5%;
 }
