@@ -57,7 +57,7 @@
         window.onload = function () {
             $("#wrap > div").each(function () {
                 // 개별적으로 Wheel 이벤트 적용
-                $(this).on("mousewheel DOMMouseScroll", function (e) {
+                $(this).scrollHeight(function (e) {
                     e.preventDefault();
                     var delta = 0;
                     if (!event) event = window.event;
