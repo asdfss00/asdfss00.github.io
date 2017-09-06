@@ -141,6 +141,6 @@ div.map > div > img {
     margin-bottom: 5px;
 }
 
-.galereya-grid {
-    height: auto;
+div.photo > div.content {
+    overflow-y: scroll;
 }
